@@ -4,42 +4,57 @@
   <meta charset="UTF-8">
   <title>My landing page</title>
   <link rel="shortcut icon" href="data:image/x-icon;" type="image/x-icon">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
   <!-- We need this line below for responsiveness! -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
   <!-- code a Hero / Banner section -->
-  <div class="card-banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/background.png)">
-    <h1>Le Wagon brings tech skills to creative people!</h1>
-    <p1>Change your life and learn to code at one of our campuses around the world.</p1>
-    <a href="#" class="btn-apply">Apply now!</a>
+  <div class="card-banner" style="background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url(images/villa.png)">
+    <div class="container">
+      <h1>Achetez votre propriété en toute simplicité, sans stress financier</h1>
+      <p>Découvrez nos plans de paiement flexibles pour acquérir votre maison de rêve.</p>
+      <a href="#" class="btn-apply">Consulation Gratuite!</a>
   </div>
+    </div>
+
   <!-- code a "How it works" section -->
-    <div class="card-contenair">
-      <h2><strong>it works</strong></h2>
-    </div>
-    <div class="card-option">
-      <div class="card-apply">
-        <img src="images/apply.svg" class="card-apply avatar-apply"/>
-        <h3><strong>Apply</strong></h3>
-        <p>First apply to one of our campuses around the world.</p>
+    <div class="container">
+      <h2 class="text-center">Comment ça marche ?</h2>
+      <div class="cards">
+        <div class="card">
+          <img src="images/discussion.png" alt="discussion">
+          <h3>Definir votre desgin</h3>
+          <p>Participez à notre atelier de conception exclusif et collaborez directement avec nos architectes et designers pour concrétiser votre projet sur-mesure.</p>
+        </div>
+        <div class="card">
+          <img src="images/plan.png" alt="plan">
+          <h3>Configurez un plan de paiement flexible</h3>
+          <p>Optez pour notre plan de paiement flexible et personnalisez les modalités de financement pour mieux s'adapter à votre budget et à vos besoins.</p>
+        </div>
+          <div class="card">
+            <img src="images/undraw_under_construction_46pa.png" alt="under">
+            <h3>Suivi en temps réel.</h3>
+            <p>Suivez vos paiements et la progression de votre projet en temps réel grâce à notre plateforme intuitive, vous offrant une transparence totale et un contrôle sans effort.</p>
+          </div>
+        </div>
       </div>
-      <div class="card-learn-to-code">
-        <img src="images/learn.svg" class="card-learn avatar-learn">
-        <h3><strong>Learn</strong></h3>
-        <p>Learn Ruby on Rails, Javascript, SQL & much more!</p>
-      </div>
-      <div class="card-product">
-        <img src="images/product.svg" class="card-product avatar-product">
-        <h3><strong>Build products</strong></h3>
-        <p>Finally you will be able to bring your ideas to life.</p>
-      </div>
-    </div>
 
 
 
   <!-- code a footer -->
+  <div class="footer">
+    <div class="links">
+      <a href="#"><i class="fab fa-fw fa-facebook-f"></i></a>
+      <a href="#"><i class="fab fa-fw fa-github"></i></a>
+      <a href="#"><i class="fab fa-fw fa-twitter"></i></a>
+      <a href="#"><i class="fab fa-fw fa-instagram"></i></a>
+      <p>Ce site a été codé avec <i class="fas fa-heart"></i> chez Constructec Sénégal.</p>
+
+    </div>
+  </div>
 
 </body>
 </html>
